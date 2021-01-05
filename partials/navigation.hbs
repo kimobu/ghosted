@@ -1,0 +1,7 @@
+<nav class="header__nav" role="navigation">
+        <!-- Loop through the navigation items -->
+        {{#foreach navigation}}
+        <a class="header__link {{#if current}} nav-current{{/if}}" href="{{url absolute="true"}}">{{label}}</a>
+        {{/foreach}}
+        <!-- End the loop -->
+</nav>

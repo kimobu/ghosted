@@ -1,0 +1,29 @@
+{
+  "name": "Ghosted",
+  "version": "0.0.1",
+  "description": "An iOS Reader View dark mode inspired Ghost theme based on Sam Clarke's Artemis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ghost",
+    "theme",
+    "ghost-theme"
+  ],
+  "author": {
+    "name": "kimobu",
+    "url": "https://kimobu.space"
+  },
+  "gpm": {
+    "type": "theme",
+    "categories": [
+      "Minimal",
+      "Personal Blogs"
+    ]
+  },
+  "license": "ISC",
+  "config": {
+    "posts_per_page": 12
+  }
+}

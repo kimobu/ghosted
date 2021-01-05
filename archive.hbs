@@ -1,0 +1,17 @@
+{{!< default}}
+{{!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template --}}
+{{> header}}
+
+    <main class="main_minimal" role="main">
+        {{#foreach posts limit="all"}}
+          <article class="post post-date-{{date format="M"}}">
+            <div class="post-label">{{date format="MMMM YYYY"}}</div>
+            <a class="post-link" href="{{url}}">
+              <h2 class="post-title">{{title}}</h2>
+            </a>
+          </article>
+        {{/foreach}}
+</main>
+
+{{> footer}}
